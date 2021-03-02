@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url("../images/bg-pattern-top.svg"),
+    url("../images/bg-pattern-bottom.svg");
+  background-position: top -400px left -90px, bottom -400px right -90px;
+  background-repeat: no-repeat;
+  font-size: 18px;
+  font-family: kumbh sans;
+  min-height: 100%;
+}
+strong {
+  font-weight: 700;
+}
+.container {
+  margin: 10% auto 10% auto;
+  width: 25%;
+  min-height: 80%;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 1px 2px 4px hsl(227, 10%, 46%);
+  flex-wrap: wrap;
+}
+.pattern-div {
+  height: 90%;
+  width: 100%;
+  object-fit: contain;
+  overflow: hidden;
+}
+.pattern {
+  min-width: 100%;
+  min-height: 100%;
+  margin: auto;
+  display: block;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.profile-pix {
+  position: relative;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  bottom: 75px;
+}
+.prox {
+  margin: 0 auto;
+  object-fit: cover;
+  width: 125px;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.profile {
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+.profile img {
+  width: 100%;
+  height: auto;
+}
+.profile-name {
+  margin: 0 auto;
+  text-align: center;
+}
+hr {
+  margin-top: -70px;
+}
+
+.stat {
+  display: flex;
+  align-items: space-between;
+  text-align: center;
+  justify-content: space-around;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.followers {
+  display: flex;
+  flex-direction: column;
+
+  line-height: 1.6em;
+}
+.likes {
+  display: flex;
+  flex-direction: column;
+
+  line-height: 1.6em;
+}
+.photos {
+  display: flex;
+  flex-direction: column;
+
+  line-height: 1.6em;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
